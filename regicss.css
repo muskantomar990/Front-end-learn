@@ -1,0 +1,91 @@
+.container {
+    background-color: blanchedalmond;
+    padding: 20px 20px 10px 20px;
+    text-align: left;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 0px;
+    
+    }
+    .logintop{  
+        padding: 50px 0px 50px 0px;
+        text-align: center;
+        background-color: azure;
+        box-shadow: -8px -18px 20px 10px;
+    }
+    
+    .spaninline{
+        display: flex;
+        padding-bottom: 10px;
+        
+    }
+    
+    
+    .gender{
+        padding: 0px 26px 0px 0px;
+    
+    }
+    .nameleft{
+        text-align: left;
+        width: 15%;
+    }
+    .nameright{
+    
+        padding-left: 2px;
+    }
+    .loginnameright{
+
+        padding-left: 30px;
+    }
+    .emailleft{
+        text-align: left;
+        width: 15%;
+    
+    
+    }
+    
+    .emailright{
+       
+        padding-left: 31px;
+    
+    }
+    .phoneleft{
+        text-align: left;
+        width: 15%;
+    }
+    .imageleft{
+        text-align: right;
+        margin-right: 6%;
+        width: 10%;
+    }
+    .imageright{
+        margin-right: 96px;
+    }
+    
+    .maleright{
+        padding-right: 25px;
+    }
+    .passleft{
+        padding-right: 10px;
+    }
+    .conpassleft{
+        width: 76px;
+    }
+    .selectright{
+        margin-right: 85px;
+    }
+    .selectleft{
+        padding-right: 12px;
+    }
+    .passright{
+        margin-left: 0px;
+    }
+    .subbtn{
+        text-align: center;
+    }
+    .arearight{
+        margin-left: 15px;
+        width: 207px;
+    
+    }

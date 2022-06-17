@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICE</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="regicss.css">
+    <style src="loggin.js"></style>
+
+</head>
+<body>
+
+    <div class="logintop" >
+        <h1>LOGIN HERE</h1>
+    </div>
+<div class="container">
+    <div class="login ">
+        <form onsubmit="return validatelogin" method="post"  class="mt-5">
+            <div class="spaninline">
+                <span class="nameleft " >
+                <label for="email" class="form-label">Email</label>
+                </span>
+                <span class="loginnameright" >
+                <input type="email" class=" form-control" name="email"><br>
+                </span>
+            </div>
+
+            <div class="spaninline">
+                <span class="emailleft" >
+                <label for="password" class="form-label" >Password</label>
+                </span>
+                <span class="emailright" >
+                <input type="Password" class=" form-control" name="password"><br>
+                </span>
+            </div>
+            
+            <div class="subbtn" >
+                <a  href="forgetpass.php" >Forget Password?</a><br>
+            </div>
+
+            <div class="subbtn"  >
+                <input type="submit" name="subbtn" class=" btn btn-primary mt-2">   
+            </div>
+
+        </form>
+
+
+ </div>
+</div>
+
+    
+</body>
+</html>
